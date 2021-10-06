@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Login_2.0</string>
+    <string name="sing_in">Sing In</string>
+    <string name="sing_up">Sing Up</string>
+    <string name="user_name">User Name</string>
+    <string name="passoword">Passoword</string>
+    <string name="e_mail">E-mail</string>
+    <string name="phone">Phone</string>
+</resources>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/azul"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="145dp"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/outline_motion_photos_on_white_" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/edtUsuario"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/botao_edit"
+            android:drawableRight="@drawable/ic_baseline_person"
+            android:hint="@string/user_name"
+            android:inputType="textPersonName"
+            android:maxLength="50"
+            android:padding="10dp"
+            android:textColorHint="@color/white" />
+
+        <EditText
+            android:id="@+id/edtSenha2"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/botao_edit"
+            android:drawableRight="@drawable/ic_baseline_lock"
+            android:hint="@string/passoword"
+            android:inputType="textPassword"
+            android:maxLength="50"
+            android:padding="10dp"
+            android:textColorHint="@color/white" />
+
+        <EditText
+            android:id="@+id/edtEmail"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/botao_edit"
+            android:drawableRight="@drawable/ic_baseline_lock"
+            android:hint="@string/e_mail"
+            android:inputType="textPassword"
+            android:maxLength="50"
+            android:padding="10dp"
+            android:textColorHint="@color/white" />
+
+        <EditText
+            android:id="@+id/edtTelefone"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/botao_edit"
+            android:drawableRight="@drawable/ic_baseline_lock"
+            android:hint="@string/phone"
+            android:inputType="textPassword"
+            android:maxLength="50"
+            android:padding="10dp"
+            android:textColorHint="@color/white" />
+
+
+        <androidx.appcompat.widget.AppCompatButton
+
+            android:id="@+id/btnFinalizar"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/botao_redondo"
+            android:text="Sing Up"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="@color/white" />
+
+
+    </LinearLayout>
+
+</LinearLayout>
+
+
